@@ -24,3 +24,27 @@ The output of both codes is the same and only the approach is different.
   <img src="https://github.com/arashasg/Multiscale-corner-detection/blob/master/Images/output1.PNG" width="600px" height="350px" />
   <img src="https://github.com/arashasg/Multiscale-corner-detection/blob/master/Images/output2.PNG" width="600px" height="350px" />
 </p>
+
+## Polygon corner detection with connected components(Polygons Corner Detection.py)
+First, we separated each connected component. Afterward, we 
+applied harris corner detection to each one of connected components. As harris cornerner detector finds
+many corner near each corner of the polygon, we applied connected component again to find the real number of corners.
+
+### input:
+<p float="left" align="center">
+  <img src="https://github.com/arashasg/Multiscale-corner-detection/blob/master/Images/polygons.jpg" width="600px" height="350px" />
+</p>
+
+### output:
+<p float="left" align="center">
+  <img src="https://github.com/arashasg/Multiscale-corner-detection/blob/master/Images/output3.PNG" width="350px" height="350px" />
+  <img src="https://github.com/arashasg/Multiscale-corner-detection/blob/master/Images/output4.PNG" width="350px" height="350px" />
+  <img src="https://github.com/arashasg/Multiscale-corner-detection/blob/master/Images/output5.PNG" width="350px" height="350px" />
+  <img src="https://github.com/arashasg/Multiscale-corner-detection/blob/master/Images/output6.PNG" width="350px" height="350px" />
+  <img src="https://github.com/arashasg/Multiscale-corner-detection/blob/master/Images/output7.PNG" width="350px" height="350px" />
+  <img src="https://github.com/arashasg/Multiscale-corner-detection/blob/master/Images/output8.PNG" width="350px" height="350px" />
+  <img src="https://github.com/arashasg/Multiscale-corner-detection/blob/master/Images/output9.PNG" width="350px" height="350px" />
+  <img src="https://github.com/arashasg/Multiscale-corner-detection/blob/master/Images/output10.PNG" width="350px" height="350px" />
+  <img src="https://github.com/arashasg/Multiscale-corner-detection/blob/master/Images/output11.PNG" width="350px" height="350px" />
+  <img src="https://github.com/arashasg/Multiscale-corner-detection/blob/master/Images/output12.PNG" width="350px" height="350px" />
+</p>
